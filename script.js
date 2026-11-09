@@ -21,6 +21,16 @@ function renderProject(project) {
     image.alt = project.visual.alt;
     image.loading = 'lazy';
     visual.append(image);
+  } else if (project.visual.kind === 'gallery') {
+    const gallery = makeElement('div', 'project-gallery');
+    project.visual.images.forEach((img) => {
+      const image = makeElement('img');
+      image.src = img.src;
+      image.alt = img.alt;
+      image.loading = 'lazy';
+      gallery.append(image);
+    });
+    visual.append(gallery);
   } else {
     const visualCopy = makeElement('div', 'repository-visual-copy');
     visualCopy.append(makeElement('span', 'repository-visual-kicker', project.visual.kicker));

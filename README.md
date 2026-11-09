@@ -59,9 +59,10 @@ For a project without an image, set `visual.kind` to `panel` and provide `kicker
 - Replace the clearly labeled illustrative project previews in `assets/images/` with approved screenshots when available. They are concept visuals, not actual screenshots or evidence of deployment.
 - The verified public heritage repository is linked from the Kibaza project card. Add only responsibilities and contribution details that can be confirmed.
 - The `mahama` project card summarizes the public repository's user manual and package manifests; it does not claim a hosted deployment or unconfirmed personal contributions.
+- The ALUMNI, Feedback, and RiceDoctor cards were added from local project materials in `D:\MY PROJECT`. Their repository links remain disabled because GitHub does not currently expose those repositories publicly.
 - The supplied rice health repository URL currently returns not found; add it to the portfolio once the repository is public and the URL is verified.
 - The supplied `ALUMNI` repository URL currently returns not found; add it once the repository is public and the URL is verified.
-- To enable the CV download manually, put the PDF in `assets/documents/` and set `window.portfolioCv` near the top of `projects.js` to `{ href: 'assets/documents/your-cv.pdf', filename: 'your-cv.pdf' }`. Leave it as `null` to keep the placeholder visible.
+- The supplied `Official Alimence CV` is in `assets/documents/Official-Alimence-CV.pdf` and is enabled as the Contact-section download. To replace it later, copy a PDF into `assets/documents/` and update `window.portfolioCv` near the top of `projects.js` with its relative `href` and download `filename`; set it back to `null` to show the placeholder.
 - Add verified certification details in the Education section when available.
 - The favicon is a simple initials placeholder at `assets/icons/favicon.svg`.
 

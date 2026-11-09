@@ -10,11 +10,19 @@ window.portfolioProjects = [
     subtitle: 'A web-based genealogy and digital archive system',
     description: 'Academic work exploring how digital tools can preserve Rwandan family histories, genealogy, clan information, and cultural heritage.',
     visual: {
-      kind: 'image',
-      src: 'assets/images/kibaza-preview.svg',
-      alt: 'Illustrative concept preview of a family genealogy archive interface; not a product screenshot',
+      kind: 'gallery',
       label: '01 / FINAL-YEAR THESIS',
-      note: 'Illustrative concept, not a deployed product screenshot',
+      note: 'Kibaza Rwanda Heritage System screenshots',
+      images: [
+        { src: 'assets/images/kibaza-image15.png', alt: 'Kibaza Rwanda Heritage System screenshot' },
+        { src: 'assets/images/kibaza-image16.png', alt: 'Kibaza Rwanda Heritage System screenshot' },
+        { src: 'assets/images/kibaza-image17.png', alt: 'Kibaza Rwanda Heritage System screenshot' },
+        { src: 'assets/images/kibaza-image18.png', alt: 'Kibaza Rwanda Heritage System screenshot' },
+        { src: 'assets/images/kibaza-image19.png', alt: 'Kibaza Rwanda Heritage System screenshot' },
+        { src: 'assets/images/kibaza-image20.png', alt: 'Kibaza Rwanda Heritage System screenshot' },
+        { src: 'assets/images/kibaza-image21.png', alt: 'Kibaza Rwanda Heritage System screenshot' },
+        { src: 'assets/images/kibaza-image22.png', alt: 'Kibaza Rwanda Heritage System screenshot' },
+      ],
     },
     details: [
       {
@@ -80,11 +88,12 @@ window.portfolioProjects = [
       },
     ],
     repository: null,
+    repositoryLabel: 'Repository link pending verification',
   },
   {
     number: '03',
     reverse: true,
-    status: 'Academic dissertation project',
+    status: 'Academic project',
     category: 'RESOURCE DISTRIBUTION',
     title: 'Mahama Camp Resource Distribution System',
     subtitle: 'A documented system for managing family resource distribution',
@@ -109,7 +118,7 @@ window.portfolioProjects = [
       },
       {
         heading: 'Contribution',
-        text: 'Designed and built independently as an academic dissertation project.',
+        text: 'Designed and built independently as an academic project.',
         kind: 'contribution',
       },
       {
@@ -123,4 +132,134 @@ window.portfolioProjects = [
       label: 'View public repository',
     },
   },
+  {
+    number: '04',
+    reverse: false,
+    status: 'Academic project',
+    category: 'COMMUNITY FORUM',
+    title: 'University Alumni Information-Sharing Forum',
+    subtitle: 'A moderated forum connecting students and alumni',
+    description: 'A University of Rwanda, Nyarugenge Campus forum concept for bringing student and alumni information-sharing into a centralized, moderated platform instead of scattered social groups.',
+    visual: {
+      kind: 'panel',
+      kicker: 'UNIVERSITY OF RWANDA',
+      heading: 'Students\nand alumni,\nconnected.',
+      stack: 'COMMUNITY / MODERATION / SEARCH',
+      label: '04 / ACADEMIC PROJECT',
+      note: 'Project overview, not a product screenshot',
+    },
+    details: [
+      {
+        heading: 'Documented scope',
+        items: [
+          'Centralized forum for student and alumni communication',
+          'Moderated community access',
+          'Information sharing with content filtering',
+        ],
+      },
+      {
+        heading: 'Contribution',
+        text: 'Designed and built independently as an academic project.',
+        kind: 'contribution',
+      },
+      {
+        heading: 'Technologies',
+        items: ['PHP', 'MySQL'],
+        kind: 'technologies',
+      },
+    ],
+    repository: null,
+    repositoryLabel: 'Repository link unavailable publicly',
+  },
+  {
+    number: '05',
+    reverse: true,
+    status: 'Academic project',
+    category: 'STUDENT FEEDBACK SYSTEM',
+    title: 'Real-Time Student Feedback Sentiment Monitoring System',
+    subtitle: 'A claim-management workflow for university feedback',
+    description: 'A University of Kigali system for submitting student claims, routing them to responsible departments, and tracking their review and resolution lifecycle.',
+    visual: {
+      kind: 'gallery',
+      label: '05 / ACADEMIC PROJECT',
+      note: 'Real-Time Student Feedback System screenshots',
+      images: [
+        { src: 'assets/images/feedback-image11.png', alt: 'Student Feedback System screenshot' },
+        { src: 'assets/images/feedback-image12.png', alt: 'Student Feedback System screenshot' },
+        { src: 'assets/images/feedback-image13.png', alt: 'Student Feedback System screenshot' },
+        { src: 'assets/images/feedback-image14.png', alt: 'Student Feedback System screenshot' },
+        { src: 'assets/images/feedback-image15.png', alt: 'Student Feedback System screenshot' },
+        { src: 'assets/images/feedback-image16.png', alt: 'Student Feedback System screenshot' },
+      ],
+    },
+    details: [
+      {
+        heading: 'Documented capabilities',
+        items: [
+          'Claims by course or service category with department routing',
+          'Role-based student, officer, and admin workflows',
+          'Claim status lifecycle, threaded follow-up, and internal notes',
+          'Administrator reporting and sentiment monitoring',
+        ],
+      },
+      {
+        heading: 'Contribution',
+        text: 'Designed and built independently as an academic project.',
+        kind: 'contribution',
+      },
+      {
+        heading: 'Technologies',
+        items: ['PHP', 'MySQL', 'Chart.js'],
+        kind: 'technologies',
+      },
+    ],
+    repository: null,
+    repositoryLabel: 'Repository link unavailable publicly',
+  },
+  {
+    number: '06',
+    reverse: false,
+    status: 'Completed academic project',
+    category: 'AI / AGRICULTURE',
+    title: 'RiceDoctor: Rice Disease Detection and Farmer Advisory System',
+    subtitle: 'Rice-leaf image classification with treatment guidance',
+    description: 'A University of Kigali academic project that classifies rice-leaf photos into four health or disease classes and returns matching treatment and prevention recommendations.',
+    visual: {
+      kind: 'panel',
+      kicker: 'RICEDOCTOR',
+      heading: 'Identify\nrice-leaf\ndisease.',
+      stack: 'IMAGE / MODEL / ADVISORY',
+      label: '06 / ACADEMIC PROJECT',
+      note: 'Project overview, not a product screenshot',
+    },
+    details: [
+      {
+        heading: 'Documented capabilities',
+        items: [
+          'Four-class rice-leaf disease and healthy classification',
+          'Image-quality validation and rice-leaf detection checks',
+          'Treatment and prevention recommendations',
+          'Diagnosis history and analytics for expert/admin roles',
+        ],
+      },
+      {
+        heading: 'Contribution',
+        text: 'Designed and built independently as an academic project.',
+        kind: 'contribution',
+      },
+      {
+        heading: 'Technologies',
+        items: ['Python', 'FastAPI', 'React', 'Vite', 'MySQL', 'MobileNetV2'],
+        kind: 'technologies',
+      },
+    ],
+    repository: null,
+    repositoryLabel: 'Repository link unavailable publicly',
+  },
 ];
+window.portfolioCv = {
+  href: 'assets/documents/Official-Alimence-CV.pdf',
+  filename: 'Dushime-Alimence-CV.pdf',
+  description: 'Download my CV as a PDF.',
+  buttonLabel: 'Download CV',
+};
